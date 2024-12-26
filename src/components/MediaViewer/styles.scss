@@ -1,155 +1,184 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-.w-100{
+
+.w-100 {
   width: 100%;
 }
+
 .downloadIcon {
   cursor: pointer;
 }
-.w-250px{
+
+.w-250px {
   width: 250px;
 }
+
 .file-btn-wrapper {
-    margin-top: 30px;
-    width: 100%;
-    bottom: 30px;
-    display: flex;
-    max-width: 400px;
+  margin-top: 30px;
+  width: 100%;
+  bottom: 30px;
+  display: flex;
+  max-width: 400px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.m-auto {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-allow {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.mb-25 {
+  margin-bottom: 30px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.two-grid {
+  display: grid;
+  grid-template-columns: 55% 35%;
+  min-height: calc(100vh - 240px);
+  gap: 5%;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.createBgScreen {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 10px auto;
+  min-height: fit-content;
+  // overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .border-div {
+    background: rgba(238, 238, 238, 0.46);
+    // border: 2px dashed #d9d9d9;
+    border-radius: 15px;
+    padding: 15px;
   }
-  .cursor-pointer {
-    cursor: pointer;
-  }
-  .m-auto {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .not-allow {
-    cursor: not-allowed;
-    opacity: 0.4;
-  }
-  .mb-25 {
-    margin-bottom: 30px;
-  }
-  .d-flex {
-    display: flex;
-  }
-  .flex-direction-column {
-    flex-direction: column;
-  }
-  .w-full {
-    width: 100%;
-  }
-  .justify-content-center {
-    justify-content: center;
-  }
-  .p-10 {
-    padding: 10px;
-  }
-  .align-center {
-    align-items: center;
-  }
-  .two-grid {
-    display: grid;
-    grid-template-columns: 55% 35%;
-    min-height: calc(100vh - 240px);
-    gap: 5%;
-  }
-  .position-relative {
-    position: relative;
-  }
-  .createBgScreen {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: 10px auto;
-    min-height: fit-content;
-    // overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    .border-div {
-      background: rgba(238, 238, 238, 0.46);
-      // border: 2px dashed #d9d9d9;
-      border-radius: 15px;
-      padding: 15px;
+
+  .userImg {
+    position: absolute;
+    width: 39%;
+    z-index: 1;
+
+    &.madhuvan_publick_school-img,
+    &.bhalvav_cricket-img,
+    &.madhuvan_kosad-img {
+      right: 20px;
+      top: 25%;
     }
-    .userImg {
+
+    &.MY_Post-img {
+      right: 47px;
+      top: 30%;
+      width: 47%;
+    }
+
+    &.MY_Post_2-img {
+      right: 48px;
+      top: 18%;
+      width: 46%;
+    }
+
+    &.Maruti_Dhun_Mandal-img,
+    &.MarutiDhunMandalNew-img {
+      right: 42px;
+      top: 30%;
+      width: 33%;
+    }
+
+    &.maan-nakrani-img {
+      right: 10.5%;
+      top: 26%;
+      width: 31%;
+    }
+
+    &.CRPF-img {
+      right: 8%;
+      top: 19.5%;
+      width: 34%;
+    }
+
+    &.cricket_una-img {
+      right: 8%;
+      top: 24.5%;
+      width: 34%;
+    }
+
+    &.cricket_bhalvav-img {
+      right: 6.5%;
+      top: 24.5%;
+      width: 34%;
+    }
+
+    &.saiRamDave-img {
+      right: 5%;
+      top: 23.5%;
+      width: 36%;
+    }
+
+    &.birthday-img {
+      left: 0;
+      right: 0;
+      margin: 25% auto;
+      width: 30%;
+    }
+
+    &.vrundavan_navratri_mahotsav-img {
+      right: 10%;
+      top: 29%;
       position: absolute;
-      width: 39%;
+      width: 35%;
       z-index: 1;
-  
-      &.madhuvan_publick_school-img,
-      &.bhalvav_cricket-img,
-      &.madhuvan_kosad-img {
-        right: 20px;
-        top: 25%;
-      }
-      &.MY_Post-img{
-        right: 47px;
-        top: 30%;
-        width: 47%;
-      }
-      &.MY_Post_2-img{
-        right: 48px;
-        top: 18%;
-        width: 46%;
-      }
-      &.Maruti_Dhun_Mandal-img,
-      &.MarutiDhunMandalNew-img {
-        right: 42px;
-        top: 30%;
-        width: 33%;
-      }
-      &.maan-nakrani-img {
-        right: 10.5%;
-        top: 26%;
-        width: 31%;
-      }
-  
-      &.CRPF-img {
-        right: 8%;
-        top: 19.5%;
-        width: 34%;
-      }
-      &.cricket_una-img {
-        right: 8%;
-        top: 24.5%;
-        width: 34%;
-      }
-      &.cricket_bhalvav-img {
-        right: 6.5%;
-        top: 24.5%;
-        width: 34%;
-      }
-      &.saiRamDave-img {
-        right: 5%;
-        top: 23.5%;
-        width: 36%;
-      }
-      &.birthday-img {
-        left: 0;
-        right: 0;
-        margin: 25% auto;
-        width: 30%;
-      }
-      &.vrundavan_navratri_mahotsav-img {
-        right: 10%;
-        top: 29%;
-        position: absolute;
-        width: 35%;
-        z-index: 1;
-      }
-      &.gyansagarBithday-img{
-        right: 32%;
-        top: 23%;
-        position: absolute;
-        width: 36%;
-        z-index: 1;
-      }
     }
+
+    &.gyansagarBithday-img {
+      right: 32%;
+      top: 23%;
+      position: absolute;
+      width: 36%;
+      z-index: 1;
+    }
+  }
+
   .trxSlot {
     position: absolute;
     z-index: 3;
@@ -163,13 +192,15 @@
     align-items: center;
     justify-content: start;
     font-family: "Outfit", serif;
-    &.MY_Post-name{
+
+    &.MY_Post-name {
       bottom: 16%;
       height: 120px;
       left: 45px;
-      width: 160px;
+      width: 170px;
     }
-    &.MY_Post_2-name{
+
+    &.MY_Post_2-name {
       bottom: 20%;
       height: 80px;
       left: 40px;
@@ -195,7 +226,8 @@
     align-items: center;
     justify-content: start;
     font-family: "Inter", serif;
-    &.MY_Post_2-name{
+
+    &.MY_Post_2-name {
       top: 34%;
       height: 80px;
       left: 67px;
@@ -203,441 +235,591 @@
       font-family: "Inter", serif;
       font-weight: 850;
     }
-    .salary-text-con{
+
+    .salary-text-con {
       font-size: 50px;
     }
   }
-    .userName {
-      position: absolute;
-      z-index: 3;
-      text-align: center;
+
+  .userName {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.madhuvan_publick_school-name,
+    &.bhalvav_cricket-name,
+    &.vrundavan_navratri_mahotsav-name,
+    &.madhuvan_kosad-name {
+      width: 32%;
+      right: 8.5%;
+      bottom: 37%;
+      height: 6%;
+      line-height: 0;
+    }
+
+
+    &.MY_Post-name {
+      width: 38%;
+      right: 6%;
+      bottom: 5%;
+      line-height: normal;
+      font-size: 19px;
+      height: 46px;
+      font-family: "Outfit", serif;
+    }
+
+    &.MY_Post_2-name {
+      width: 222px;
+      right: 7%;
+      bottom: 5%;
+      line-height: normal;
+      font-size: 19px;
+      height: 46px;
+      font-family: "Inter", serif;
+      color: #1a2736;
+      font-weight: 900;
+    }
+
+
+    &.Maruti_Dhun_Mandal-name,
+    &.MarutiDhunMandalNew-name {
+      width: 36%;
+      right: 33px;
+      height: 6%;
+      line-height: 0;
+      color: #b71758;
+      bottom: 32.2%;
+    }
+
+    &.MarutiDhunMandalNew-name {
+      right: 38px;
+    }
+
+    &.CRPF-name {
+      width: 38%;
+      right: 6.2%;
+      bottom: 43%;
+      height: 6%;
+      line-height: 0;
+      color: #0d2a5e;
+    }
+
+    &.maan-nakrani-name {
+      width: 33%;
+      right: 8.5%;
+      bottom: 38%;
+      height: 6%;
+      line-height: 0;
+    }
+
+    &.vrundavan_navratri_mahotsav-name {
+      width: 32%;
+      right: 10.5%;
+      bottom: 38%;
+      height: 6%;
+      line-height: 0;
+      color: #2e2d66 !important;
+    }
+
+    &.madhuvan_kosad-name {
+      bottom: 36.5%;
+    }
+
+    &.birthday-name {
+      bottom: 36%;
+      left: 0;
+      right: 0;
+      font-size: 13.5px;
+    }
+
+    &.cricket_una-name {
+      bottom: 40%;
+      right: 40px;
+      font-size: 13.5px;
+      width: 35%;
+    }
+
+    &.cricket_bhalvav-name {
+      bottom: 38.6%;
+      right: 40px;
+      font-size: 13.5px;
+      width: 35%;
+      color: #000;
+    }
+
+    &.saiRamDave-name {
+      bottom: 37.3%;
+      right: 32px;
+      font-size: 13.5px;
+      width: 36%;
+      color: #000;
+      line-height: 2;
+    }
+
+    &.gyansagarBithday-name {
+      bottom: 36.2%;
+      right: 30.5%;
       font-size: 18px;
-      font-weight: bold;
-      overflow: hidden;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  
-      &.madhuvan_publick_school-name,
-      &.bhalvav_cricket-name,
-      &.vrundavan_navratri_mahotsav-name,
-      &.madhuvan_kosad-name {
-        width: 32%;
-        right: 8.5%;
-        bottom: 37%;
-        height: 6%;
-        line-height: 0;
-      }
-  
+      width: 39%;
+      color: #000;
+      line-height: normal;
+    }
+  }
 
-      &.MY_Post-name {
-        width: 222px;
-        right: 5%;
-        bottom: 5%;
-        line-height: normal;
-        font-size: 19px;
-        height: 46px;
-        font-family: "Outfit", serif;
+  .bgimage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+  }
+
+  .birthdayImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+  }
+
+  .maanNakraniImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+  }
+
+  .CRPFImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+  }
+
+  .cricket_unaImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+  }
+
+  .cricket_bhalvavImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+  }
+
+  .saiRamDaveImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+  }
+}
+
+.downloadWidth {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.download {
+  width: 100%;
+  align-self: center;
+  //margin-bottom: 20px;
+}
+
+.text {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.viewText {
+  font-family: "PoppinsSemiBold";
+}
+
+.viewSubText {
+  font-weight: 500;
+}
+
+.inputLabel {
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.inputLabel1 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.file-upload-wrapper {
+  background: #063d3b;
+  // background: rgba(241, 241, 241, 0.27);
+  // border: 2px dashed #d9d9d9;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+  width: 100%;
+}
+
+.des {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 100 !important;
+  font-family: "PoppinsRegular";
+}
+
+.user-name {
+  .ant-row.ant-form-item-row {
+    flex-direction: column;
+
+    .ant-form-item-label {
+      text-align: left;
+    }
+  }
+}
+
+.userImg {
+  width: 100%;
+}
+
+@media only screen and (max-width: 999px) {
+  .createBgScreen {
+    .userName {
+      &.gyansagarBithday-name {
+        width: 39%;
       }
 
-      &.MY_Post_2-name {
-        width: 222px;
+      &.Maruti_Dhun_Mandal-name {
+        font-size: 18px;
+        right: 32px;
+      }
+
+      &.MarutiDhunMandalNew-name {
+        font-size: 18px;
+        right: 39px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .two-grid {
+    grid-template-columns: 100%;
+    gap: 0;
+    min-height: auto;
+  }
+
+  .file-btn-wrapper {
+    margin: 20px auto;
+    justify-content: center;
+  }
+
+  .createBgScreen {
+    .userName {
+      &.gyansagarBithday-name {
+        bottom: 36.3%;
+      }
+    }
+  }
+
+  .createBgScreen .trxSlot.MY_Post-name {
+    width: 180px;
+    font-size: 28px;
+    line-height: 31px;
+  }
+
+  .createBgScreen .userName.MY_Post-name {
+    font-size: 16px;
+  }
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .createBgScreen .trxSlot.MY_Post-name {
+    font-size: 25px;
+  }
+
+  h2.text.viewText {
+    font-size: 17px;
+  }
+
+  h3.text.viewSubText {
+    font-size: 16px;
+  }
+
+  .Maruti_Dhun_Mandal-img,
+  .MarutiDhunMandalNew-img {
+    width: 34% !important;
+    right: 7% !important;
+  }
+
+  .createBgScreen {
+    .userName {
+      font-size: 11px;
+      bottom: 37%;
+
+      &.Maruti_Dhun_Mandal-name {
+        font-size: 16px;
+        right: 6%;
+      }
+
+      &.MarutiDhunMandalNew-name {
+        font-size: 16px;
         right: 7%;
-        bottom: 5%;
-        line-height: normal;
-        font-size: 19px;
-        height: 46px;
-        font-family: "Inter", serif;
-        color: #1a2736;
-        font-weight: 900;
       }
 
+      &.cricket_una-name {
+        bottom: 39.6%;
+        right: 32px;
+        font-size: 12px !important;
+        width: 34%;
+      }
+
+      &.saiRamDave-name {
+        bottom: 37.3%;
+        right: 30px;
+        font-size: 12px;
+        line-height: 2;
+      }
+
+      &.cricket_bhalvav-name {
+        bottom: 38.3%;
+        right: 26px;
+        font-size: 11px;
+        width: 35%;
+      }
+
+      &.saiRamDaveImg-name {
+        bottom: 38.3%;
+        right: 26px;
+        font-size: 11px;
+        width: 35%;
+      }
+    }
+  }
+
+  .cricket_una-name {
+    font-size: 10px !important;
+  }
+
+  .saiRamDave-img {
+    right: 5% !important;
+    top: 23.5% !important;
+    width: 37% !important;
+  }
+
+}
+
+@media only screen and (max-width: 580px) {
+  .createBgScreen {
+    .userName {
+      &.gyansagarBithday-name {
+        bottom: 36.6%;
+        font-size: 14px;
+      }
+
+      &.Maruti_Dhun_Mandal-name {
+        font-size: 15px;
+        right: 6%;
+      }
+
+      &.MarutiDhunMandalNew-name {
+        font-size: 15px;
+        right: 7%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .createBgScreen {
+    .userName {
+      &.gyansagarBithday-name {
+        bottom: 36.3%;
+      }
+    }
+  }
+
+  .createBgScreen .trxSlot.MY_Post-name {
+    font-size: 24px;
+  }
+
+  .createBgScreen .userName.MY_Post-name {
+    right: 5%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .createBgScreen .trxSlot.MY_Post-name {
+    font-size: 23px;
+    width: 37%;
+  }
+
+  .createBgScreen .userName.MY_Post-name {
+    font-weight: 500;
+    height: 20px;
+    bottom: 9%;
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (max-width: 490px) {
+  .createBgScreen .userName.MY_Post-name {
+    height: 20px;
+    bottom: 8%;
+    font-size: 16px;
+    right: 7%;
+    font-weight: 400;
+  }
+
+  .createBgScreen .trxSlot.MY_Post-name {
+    font-size: 23px;
+    width: 37%;
+    height: 90px;
+  }
+
+  .createBgScreen {
+    .userName {
+      &.Maruti_Dhun_Mandal-name {
+        font-size: 13px;
+        right: 6%;
+        bottom: 32.4%;
+      }
+
+      &.MarutiDhunMandalNew-name {
+        font-size: 13px;
+        right: 7.3%;
+        bottom: 32.4%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .createBgScreen .trxSlot.MY_Post-name {
+    font-size: 18px;
+    line-height: 20px;
+    height: 80px;
+    left: 37px;
+  }
+  .createBgScreen .userName.MY_Post-name {
+    height: 20px;
+    bottom: 8%;
+    font-size: 16px;
+    right: 7%;
+    font-weight: 400;
+  }
+
+  .saiRamDave-name {
+    bottom: 37.3% !important;
+    right: 27px !important;
+    font-size: 11px !important;
+  }
+
+  .gyansagarBithday-name {
+    right: 31% !important;
+    width: 38% !important;
+    bottom: 36.7% !important;
+    font-size: 11px !important;
+
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .createBgScreen .trxSlot.MY_Post-name {
+    font-size: 20px;
+    line-height: 22px;
+    height: 80px;
+    left: 37px;
+  }
+  .createBgScreen .userName.MY_Post-name {
+    height: 20px;
+    bottom: 8%;
+    font-size: 16px;
+    right: 7%;
+    font-weight: 400;
+  }
+  .createBgScreen {
+    .userName {
+      &.Maruti_Dhun_Mandal-name {
+        font-size: 12px;
+        right: 6.4%;
+        bottom: 32.5%;
+      }
+
+      &.MarutiDhunMandalNew-name {
+        font-size: 12px;
+        right: 7.4%;
+        bottom: 32.5%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .createBgScreen .userName.MY_Post-name {
+    font-size: 14px;
+  }
+  .createBgScreen {
+    .userName {
 
       &.Maruti_Dhun_Mandal-name,
       &.MarutiDhunMandalNew-name {
-        width: 36%;
-        right: 33px;
-        height: 6%;
-        line-height: 0;
-        color: #b71758;
-        bottom: 32.2%;
-      }
-      &.MarutiDhunMandalNew-name {
-        right: 38px;
-      }
-      &.CRPF-name {
-        width: 38%;
-        right: 6.2%;
-        bottom: 43%;
-        height: 6%;
-        line-height: 0;
-        color: #0d2a5e;
-      }
-  
-      &.maan-nakrani-name {
-        width: 33%;
-        right: 8.5%;
-        bottom: 38%;
-        height: 6%;
-        line-height: 0;
-      }
-      &.vrundavan_navratri_mahotsav-name {
-        width: 32%;
-        right: 10.5%;
-        bottom: 38%;
-        height: 6%;
-        line-height: 0;
-        color: #2e2d66 !important;
-      }
-      &.madhuvan_kosad-name {
-        bottom: 36.5%;
-      }
-      &.birthday-name {
-        bottom: 36%;
-        left: 0;
-        right: 0;
-        font-size: 13.5px;
-      }
-      &.cricket_una-name {
-        bottom: 40%;
-        right: 40px;
-        font-size: 13.5px;
-        width: 35%;
-      }
-      &.cricket_bhalvav-name {
-        bottom: 38.6%;
-        right: 40px;
-        font-size: 13.5px;
-        width: 35%;
-        color: #000;
-      }
-      &.saiRamDave-name {
-        bottom: 37.3%;
-        right: 32px;
-        font-size: 13.5px;
-        width: 36%;
-        color: #000;
-        line-height: 2;
-      }
-      &.gyansagarBithday-name{
-        bottom: 36.2%;
-        right: 30.5%;
-        font-size: 18px;
-        width: 39%;
-        color: #000;
-        line-height: normal;
-      }
-    }
-    .bgimage {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      z-index: 2;
-    }
-    .birthdayImg {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      z-index: 2;
-    }
-    .maanNakraniImg {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      z-index: 2;
-    }
-    .CRPFImg {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      z-index: 2;
-    }
-  
-    .cricket_unaImg {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      z-index: 2;
-    }
-    .cricket_bhalvavImg {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      z-index: 2;
-    }
-    .saiRamDaveImg {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      z-index: 2;
-    }
-  }
-  .downloadWidth {
-    width: 70%;
-    margin: 0 auto;
-  }
-  .download {
-    width: 100%;
-    align-self: center;
-    //margin-bottom: 20px;
-  }
-  
-  .text {
-    color: white;
-    margin-bottom: 10px;
-  }
-  .viewText {
-    font-family: "PoppinsSemiBold";
-  }
-  .viewSubText {
-    font-weight: 500;
-  }
-  
-  .inputLabel {
-    margin-bottom: 0.3rem;
-    font-weight: 600;
-  }
-  
-  .inputLabel1 {
-    margin-bottom: 10px;
-    font-weight: 500;
-  }
-  
-  .file-upload-wrapper {
-    background: #063d3b;
-    // background: rgba(241, 241, 241, 0.27);
-    // border: 2px dashed #d9d9d9;
-    border-radius: 15px;
-    padding: 15px;
-  }
-  .mr-10 {
-    margin-right: 10px;
-    width: 100%;
-  }
-  .des {
-    font-size: 12px;
-    text-align: center;
-    margin-top: 10px;
-    font-weight: 100 !important;
-    font-family: "PoppinsRegular";
-  }
-  .user-name {
-    .ant-row.ant-form-item-row {
-      flex-direction: column;
-      .ant-form-item-label {
-        text-align: left;
-      }
-    }
-  }
-  .userImg {
-    width: 100%;
-  }
-  
-  @media only screen and (max-width: 999px) {
-    .createBgScreen{
-      .userName{
-        &.gyansagarBithday-name{
-            width: 39%;
-        }
-        &.Maruti_Dhun_Mandal-name {
-          font-size: 18px;
-          right: 32px;
-        }
-        &.MarutiDhunMandalNew-name {
-          font-size: 18px;
-          right: 39px;
-        }
-      }
-    }
-  }
-  
-  @media only screen and (max-width: 950px) {
-    .two-grid {
-      grid-template-columns: 100%;
-      gap: 0;
-      min-height: auto;
-    }
-    .file-btn-wrapper {
-      margin: 20px auto;
-      justify-content: center;
-    }
-    .createBgScreen{
-      .userName{
-        &.gyansagarBithday-name{
-         bottom: 36.3%;
-        }
-      }
-    }
-  }
-  .pt-10 {
-    padding-top: 10px;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    h2.text.viewText {
-      font-size: 17px;
-    }
-    h3.text.viewSubText {
-      font-size: 16px;
-    }
-    .Maruti_Dhun_Mandal-img,
-    .MarutiDhunMandalNew-img {
-      width: 34% !important;
-      right: 7% !important;
-    }
-    .createBgScreen {
-      .userName {
         font-size: 11px;
-        bottom: 37%;
-  
-        &.Maruti_Dhun_Mandal-name {
-          font-size: 16px;
-          right: 6%;
-        }
-        &.MarutiDhunMandalNew-name {
-          font-size: 16px;
-          right: 7%;
-        }
-  
-        &.cricket_una-name {
-          bottom: 39.6%;
-          right: 32px;
-          font-size: 12px !important;
-          width: 34%;
-        }
-        &.saiRamDave-name {
-          bottom: 37.3%;
-          right: 30px;
-          font-size: 12px;
-          line-height: 2;
-        }
-        &.cricket_bhalvav-name {
-          bottom: 38.3%;
-          right: 26px;
-          font-size: 11px;
-          width: 35%;
-        }
-        &.saiRamDaveImg-name {
-          bottom: 38.3%;
-          right: 26px;
-          font-size: 11px;
-          width: 35%;
-        }
-      }
-    }
-    .cricket_una-name {
-      font-size: 10px !important;
-    }
-  
-    .saiRamDave-img {
-      right: 5% !important;
-      top: 23.5% !important;
-      width: 37% !important;
-    }
-  }
-  @media only screen and (max-width: 580px) {
-    .createBgScreen{
-      .userName{
-        &.gyansagarBithday-name{
-          bottom: 36.6%;
-          font-size: 14px;
-        }
-        &.Maruti_Dhun_Mandal-name {
-          font-size: 15px;
-          right: 6%;
-        }
-        &.MarutiDhunMandalNew-name {
-          font-size: 15px;
-          right: 7%;
-        }
+        bottom: 32.8%;
       }
     }
   }
-  @media only screen and (max-width: 550px) {
-    .createBgScreen{
-      .userName{
-        &.gyansagarBithday-name{
-          bottom: 36.3%;  
-        }
-      }
-    }
+
+  .saiRamDave-name {
+    bottom: 37% !important;
+    right: 25px !important;
+    font-size: 11px !important;
   }
-  @media only screen and (max-width: 490px) {
-    .createBgScreen {
-      .userName {
-        &.Maruti_Dhun_Mandal-name {
-          font-size: 13px;
-          right: 6%;
-          bottom: 32.4%;
-        }
-        &.MarutiDhunMandalNew-name {
-          font-size: 13px;
-          right: 7.3%;
-          bottom: 32.4%;
-        }
-      }
-    }
+
+  .gyansagarBithday-name {
+    width: 38% !important;
+    bottom: 37% !important;
+    font-size: 9px !important;
+
   }
-  @media only screen and (max-width: 460px) {
-    .saiRamDave-name {
-      bottom: 37.3% !important;
-      right: 27px !important;
-      font-size: 11px !important;
-    }
-    .gyansagarBithday-name{
-      right: 31% !important;
-      width: 38% !important;
-      bottom: 36.7% !important;
-      font-size: 11px !important;
-  
-    }
+  .createBgScreen .trxSlot.MY_Post-name {
+    font-size: 19px;
+    line-height: 21px;
+    height: 67px;
+    left: 37px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .createBgScreen .trxSlot.MY_Post-name {
+    font-size: 16px;
+    line-height: 17px;
+    height: 49px;
+    left: 33px;
+    width: 36%;
   }
   
-  @media only screen and (max-width: 420px) {
-    .createBgScreen {
-      .userName {
-        &.Maruti_Dhun_Mandal-name {
-          font-size: 12px;
-          right: 6.4%;
-          bottom: 32.5%;
-        }
-        &.MarutiDhunMandalNew-name {
-          font-size: 12px;
-          right: 7.4%;
-          bottom: 32.5%;
-        }
-      }
-    }
-  }
-  
-  @media only screen and (max-width: 390px) {
-    .createBgScreen {
-      .userName {
-        &.Maruti_Dhun_Mandal-name,
-        &.MarutiDhunMandalNew-name {
-          font-size: 11px;
-          bottom: 32.8%;
-        }
-      }
-    }
-    .saiRamDave-name {
-      bottom: 37% !important;
-      right: 25px !important;
-      font-size: 11px !important;
-    }
-    .gyansagarBithday-name{
-      width: 38% !important;
-      bottom: 37% !important;
-      font-size: 9px !important;
-  
-    }
-  }
-  
+}
