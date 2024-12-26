@@ -1,0 +1,12 @@
+.not-found-bg {
+    display: flex;
+    justify-content: center;
+    background: #f1f1f1;
+    align-items: center;
+    min-height: calc(100vh - 304px);
+  }
+  .not-found {
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+  }
