@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://create-your-poster.vercel.app/static/css/main.8d1caa34.css",
+    "main.css": "https://create-your-poster.vercel.app/static/css/main.6bb21f83.css",
     "main.js": "https://create-your-poster.vercel.app/static/js/main.9d874d54.js",
     "static/media/MY_Post_2.png": "https://create-your-poster.vercel.app/static/media/MY_Post_2.12cedcc81f3a93371120.png",
     "static/media/MY_Post.png": "https://create-your-poster.vercel.app/static/media/MY_Post.9e46ecec9d3f58383881.png",
@@ -15,11 +15,11 @@
     "static/media/download.png": "https://create-your-poster.vercel.app/static/media/download.cf190fbef9979f76ba47.png",
     "static/media/footer.png": "https://create-your-poster.vercel.app/static/media/footer.1e10f1091efc8708f076.png",
     "index.html": "https://create-your-poster.vercel.app/index.html",
-    "main.8d1caa34.css.map": "https://create-your-poster.vercel.app/static/css/main.8d1caa34.css.map",
+    "main.6bb21f83.css.map": "https://create-your-poster.vercel.app/static/css/main.6bb21f83.css.map",
     "main.9d874d54.js.map": "https://create-your-poster.vercel.app/static/js/main.9d874d54.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d1caa34.css",
+    "static/css/main.6bb21f83.css",
     "static/js/main.9d874d54.js"
   ]
 }
